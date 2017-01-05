@@ -42,6 +42,7 @@ Because this.props and this.state may be updated asynchronously, you should not 
   this.setState((prevState, props) => ({
     counter: prevState.counter + props.increment
   }));
+  ```
 
 * State Updates are Merged
 
